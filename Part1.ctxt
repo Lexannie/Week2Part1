@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Part1
+comment1.params=dna\ startSearchAt
+comment1.target=java.lang.String\ findGene(java.lang.String,\ int)
+comment1.text=\r\n\ findGene\:\r\n\ \ \ \ Find\ the\ index\ of\ the\ first\ occurrence\ of\ the\ start\ codon\ \u201CATG\u201D.\ \r\n\ \ \ \ If\ there\ is\ no\ \u201CATG\u201D,\ return\ the\ empty\ string.\r\n\r\n\ \ \ \ Find\ the\ index\ of\ the\ first\ occurrence\ of\ the\ stop\ codon\ \u201CTAA\u201D\ after\ the\ first\ occurrence\ of\ \u201CATG\u201D\ \r\n\ \ \ \ that\ is\ a\ multiple\ of\ three\ away\ from\ the\ \u201CATG\u201D.\ Hint\:\ call\ findStopCodon.\r\n\r\n\ \ \ \ Find\ the\ index\ of\ the\ first\ occurrence\ of\ the\ stop\ codon\ \u201CTAG\u201D\ after\ the\ first\ occurrence\ of\ \u201CATG\u201D\ \r\n\ \ \ \ that\ is\ a\ multiple\ of\ three\ away\ from\ the\ \u201CATG\u201D.\ \r\n\r\n\ \ \ \ Find\ the\ index\ of\ the\ first\ occurrence\ of\ the\ stop\ codon\ \u201CTGA\u201D\ after\ the\ first\ occurrence\ of\ \u201CATG\u201D\ \r\n\ \ \ \ that\ is\ a\ multiple\ of\ three\ away\ from\ the\ \u201CATG\u201D.\ \r\n\r\n\ \ \ \ Return\ the\ gene\ formed\ from\ the\ \u201CATG\u201D\ and\ the\ closest\ stop\ codon\ that\ is\ a\ multiple\ of\ three\ away.\ \r\n\ \ \ \ If\ there\ is\ no\ valid\ stop\ codon\ and\ therefore\ no\ gene,\ return\ the\ empty\ string.\r\n\r\n\ @param\:\ \ \r\n\ \ \ \ \ \ String\ parameter\ dna,\ representing\ a\ string\ of\ DNA\r\n\ \ \ \ \ \ int\ startSearchAt;\ where\ to\ start\ searching\r\n\ \r\n\ @return\ void\r\n
+comment2.params=dna\ startIndex\ stopCodon
+comment2.target=int\ findStopCodon(java.lang.String,\ int,\ java.lang.String)
+comment2.text=\r\n\ findStopCodon\ \r\n\ @\ parameters\:\r\n\ \ \ \ \ \ a\ String\ parameter\ named\ dna\r\n\ \ \ \ \ \ an\ integer\ parameter\ named\ startIndex\ that\ represents\ where\ the\ first\ occurrence\ of\ ATG\ occurs\ in\ dna\r\n\ \ \ \ \ \ a\ String\ parameter\ named\ stopCodon.\r\n\ @returns\:\r\n\ \ \ \ \ \ the\ index\ of\ the\ first\ occurrence\ of\ stopCodon\ \r\n\ \ \ \ \ \ that\ appears\ past\ startIndex\ and\ is\ a\ multiple\ of\ 3\ away\ from\ startIndex.\ \r\n\ \ \ \ \ \ If\ there\ is\ no\ such\ stopCodon,\ this\ method\ returns\ the\ length\ of\ the\ dna\ strand.\r\n
+comment3.params=dna
+comment3.target=void\ printAllGenes(java.lang.String)
+comment3.text=\r\n\ printAllGenes\ \r\n\r\n\ @param\:\r\n\ \ \ \ \ \ String\ parameter\ dna,\ representing\ a\ string\ of\ DNA\r\n\ @return\ void\r\n\ \ \ \ \ \r\n\r\n
+comment4.params=
+comment4.target=void\ testFindGene()
+comment4.text=\r\n\ testFindStopCodon\ \ contains\ test\ cases\ with\ calls\ to\ methods\r\n\r\n\ @param\ \ none\r\n\ @return\ void\r\n
+comment5.params=
+comment5.target=void\ testFindStopCodon()
+comment5.text=\r\n\ testFindStopCodon\ \ contains\ test\ cases\ with\ calls\ to\ methods\r\n\r\n\ @param\ \ none\r\n\ @return\ void\r\n
+comment6.params=
+comment6.target=void\ main()
+numComments=7
